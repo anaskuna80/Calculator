@@ -32,6 +32,14 @@
                 {
                     Console.WriteLine($"Tyvärr ej implementerat!");
                 }
+               
+                else if (command == "pipa")
+                {
+                    Console.WriteLine($"Pip! Pip!");
+                    Console.Beep(1000, 300);
+                    Console.Beep(1000, 300);
+                }
+
                 else if (command == "sluta")
                 {
 
